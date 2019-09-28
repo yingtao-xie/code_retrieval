@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<EditText
+			android:id="@+id/sZmXi"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text= "MJPfM"
+			android:textSize="26sp"
+			android:textColor="#333333"
+			android:background="@drawable/text_sharp"
+			android:inputType="text"
+			android:labelFor="@+id/sZmXi" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="20dp" >
+			<Button
+				android:id="@+id/Jhqgy"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "BjopW"
+				android:textSize="26sp"
+				android:textColor="#666666"
+				android:background="@drawable/button_sharp" />
+			<Button
+				android:id="@+id/LzHqX"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "BNxIb"
+				android:textSize="26sp"
+				android:textColor="#666666"
+				android:background="@drawable/button_sharp" />
+			<Button
+				android:id="@+id/XVhOb"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "ZWcHw"
+				android:textSize="26sp"
+				android:textColor="#666666"
+				android:background="@drawable/button_sharp" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/eiFKp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "xhexI"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<TextView
+		android:id="@+id/OSuKP"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "MmYkA"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<TextView
+		android:id="@+id/dZSNv"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "GJvIg"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<RatingBar
+		android:id="@+id/BzZTo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:numStars="5" />
+</LinearLayout>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/OHpmk"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "TzVWx"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<Switch
+			android:id="@+id/qWqxV"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="10dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="20dp" >
+				<EditText
+					android:id="@+id/nlZmx"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "3"
+					android:text= "GmQuV"
+					android:textSize="36sp"
+					android:textColor="#333333"
+					android:background="@drawable/text_sharp"
+					android:inputType="none"
+					android:labelFor="@+id/nlZmx" />
+				<Button
+					android:id="@+id/PlvzO"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "2"
+					android:text= "UcRfQ"
+					android:textSize="36sp"
+					android:textColor="#666666"
+					android:background="@drawable/button_sharp" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="20dp" >
+			<EditText
+				android:id="@+id/oHHCu"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "3"
+				android:text= "ZukCx"
+				android:textSize="36sp"
+				android:textColor="#333333"
+				android:background="@drawable/text_sharp"
+				android:inputType="number"
+				android:labelFor="@+id/oHHCu" />
+			<Button
+				android:id="@+id/AplXE"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "2"
+				android:text= "lzvgr"
+				android:textSize="36sp"
+				android:textColor="#666666"
+				android:background="@drawable/button_sharp" />
+		</LinearLayout>
+	</LinearLayout>
+	<TextView
+		android:id="@+id/PnhKG"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "YVdVg"
+		android:textSize="36sp"
+		android:textColor="#000000" />
+</LinearLayout>
