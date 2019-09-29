@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<Button
+			android:id="@+id/OwXZH"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "umBqK"
+			android:textSize="36sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+		<Button
+			android:id="@+id/QLnmO"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "NvkIW"
+			android:textSize="36sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+		<Button
+			android:id="@+id/rwjkk"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "pMSoi"
+			android:textSize="36sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+		<Button
+			android:id="@+id/NsmOW"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "blyTy"
+			android:textSize="36sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+	</LinearLayout>
+	<TimePicker
+		android:id="@+id/JFnvB"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+	<ImageView
+		android:id="@+id/EVJpW"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic17"
+		android:contentDescription= "boZxo" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<ImageView
+			android:id="@+id/xCfnZ"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:src="@drawable/pic3"
+			android:contentDescription= "fUrRr" />
+		<TextView
+			android:id="@+id/yMLGW"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "4"
+			android:text= "zoYvc"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>

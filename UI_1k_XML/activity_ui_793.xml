@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<Button
+			android:id="@+id/cArbb"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "tGMXn"
+			android:textSize="26sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+		<Button
+			android:id="@+id/HfAfJ"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "rMivM"
+			android:textSize="26sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+		<Button
+			android:id="@+id/rmNbO"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "VfYlM"
+			android:textSize="26sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+		<Button
+			android:id="@+id/apBrC"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "eYeKT"
+			android:textSize="26sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/iUCDy"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic16"
+		android:contentDescription= "DDfvG" />
+	<EditText
+		android:id="@+id/meyCo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "WqqWP"
+		android:textSize="26sp"
+		android:textColor="#333333"
+		android:background="@drawable/text_sharp"
+		android:inputType="number"
+		android:labelFor="@+id/meyCo" />
+	<ImageView
+		android:id="@+id/JBbVq"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic14"
+		android:contentDescription= "wDmro" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<RatingBar
+				android:id="@+id/CpABK"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:numStars="5" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/KAKEK"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic14"
+		android:contentDescription= "gAokW" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="10dp" >
+				<ImageView
+					android:id="@+id/HSXVl"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "1"
+					android:src="@drawable/pic15"
+					android:contentDescription= "zSStm" />
+				<TextView
+					android:id="@+id/DOaKA"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "4"
+					android:text= "SxJAX"
+					android:textSize="36sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<SeekBar
+		android:id="@+id/AFqaM"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+</LinearLayout>

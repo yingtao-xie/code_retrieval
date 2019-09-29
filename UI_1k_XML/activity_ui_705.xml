@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/GnQdc"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "Meanr"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/MggAk"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "USdok"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/mxOom"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "ULVBV"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/modVx"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "VgBwu"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="20dp" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:padding="10dp" >
+					<EditText
+						android:id="@+id/vKQxh"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_weight= "1"
+						android:text= "jXdIV"
+						android:textSize="16sp"
+						android:textColor="#333333"
+						android:background="@drawable/text_sharp"
+						android:inputType="date"
+						android:labelFor="@+id/vKQxh" />
+					<Button
+						android:id="@+id/RQaqr"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_weight= "4"
+						android:text= "tUctG"
+						android:textSize="16sp"
+						android:textColor="#666666"
+						android:background="@drawable/button_sharp" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/VLPdh"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "wtJcs"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<RadioButton
+			android:id="@+id/ZMViz"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="10dp" >
+			<TextView
+				android:id="@+id/pHFGO"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "SysOX"
+				android:textSize="16sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/pCVlG"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "jbuYg"
+				android:textSize="16sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/HywPr"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "wvvFs"
+				android:textSize="16sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/GwVgK"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "wOfFC"
+				android:textSize="16sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

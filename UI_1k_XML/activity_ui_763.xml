@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="10dp" >
+			<TextView
+				android:id="@+id/XwbPC"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "zwQML"
+				android:textSize="26sp"
+				android:textColor="#000000" />
+			<EditText
+				android:id="@+id/cICCx"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "4"
+				android:text= "HGkMl"
+				android:textSize="26sp"
+				android:textColor="#333333"
+				android:background="@drawable/text_sharp"
+				android:inputType="time"
+				android:labelFor="@+id/cICCx" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="20dp" >
+			<ImageView
+				android:id="@+id/TspWg"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "2"
+				android:src="@drawable/pic14"
+				android:contentDescription= "guLUi" />
+			<TextView
+				android:id="@+id/GiXwb"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "3"
+				android:text= "EdmRX"
+				android:textSize="26sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<ImageView
+			android:id="@+id/tDwSn"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:scaleType = "fitXY"
+			android:src="@drawable/pic13"
+			android:contentDescription= "SmiaG" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/urUon"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "XvhLt"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<Switch
+			android:id="@+id/glExT"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2" />
+	</LinearLayout>
+</LinearLayout>

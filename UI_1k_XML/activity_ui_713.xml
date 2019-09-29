@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<Spinner
+		android:id="@+id/ehMUr"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+	<EditText
+		android:id="@+id/LtFBW"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "AmIho"
+		android:textSize="26sp"
+		android:textColor="#333333"
+		android:background="@drawable/text_sharp"
+		android:inputType="number"
+		android:labelFor="@+id/LtFBW" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<TextView
+			android:id="@+id/UiRfq"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "HeGDA"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<CheckBox
+			android:id="@+id/PUDnO"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2"
+			android:checked="true" />
+	</LinearLayout>
+	<EditText
+		android:id="@+id/oFlRX"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "xEvFz"
+		android:textSize="26sp"
+		android:textColor="#333333"
+		android:background="@drawable/text_sharp"
+		android:inputType="none"
+		android:labelFor="@+id/oFlRX" />
+</LinearLayout>
