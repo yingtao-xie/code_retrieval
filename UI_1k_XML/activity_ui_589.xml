@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<Button
+		android:id="@+id/lAeoM"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "qXSPC"
+		android:textSize="16sp"
+		android:textColor="#666666"
+		android:background="@drawable/button_sharp" />
+	<EditText
+		android:id="@+id/lEiDP"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "vQuBW"
+		android:textSize="16sp"
+		android:textColor="#333333"
+		android:background="@drawable/text_sharp"
+		android:inputType="text"
+		android:labelFor="@+id/lEiDP" />
+	<SeekBar
+		android:id="@+id/ZKNfh"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+</LinearLayout>
