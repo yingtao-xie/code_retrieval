@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<Spinner
+		android:id="@+id/IuytK"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<EditText
+			android:id="@+id/hiicT"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "jEemk"
+			android:textSize="16sp"
+			android:textColor="#333333"
+			android:background="@drawable/text_sharp"
+			android:inputType="none"
+			android:labelFor="@+id/hiicT" />
+		<Button
+			android:id="@+id/JZJnj"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2"
+			android:text= "zQOKh"
+			android:textSize="16sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="10dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="20dp" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:padding="10dp" >
+					<TextView
+						android:id="@+id/WQikU"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_weight= "2"
+						android:text= "mSSvN"
+						android:textSize="16sp"
+						android:textColor="#000000" />
+					<EditText
+						android:id="@+id/rODnH"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_weight= "3"
+						android:text= "GwMWM"
+						android:textSize="16sp"
+						android:textColor="#333333"
+						android:background="@drawable/text_sharp"
+						android:inputType="date"
+						android:labelFor="@+id/rODnH" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

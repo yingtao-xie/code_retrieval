@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ImageView
+		android:id="@+id/lponW"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic6"
+		android:contentDescription= "jxlzQ" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/LOhmF"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "4"
+			android:text= "hPpJL"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<CheckBox
+			android:id="@+id/JljbQ"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:checked="true" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="20dp" >
+				<TextView
+					android:id="@+id/iAMrb"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "4"
+					android:text= "IzuJc"
+					android:textSize="16sp"
+					android:textColor="#000000" />
+				<CheckBox
+					android:id="@+id/HxZjM"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "1"
+					android:checked="false" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<TextView
+		android:id="@+id/myLrE"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "dSegu"
+		android:textSize="16sp"
+		android:textColor="#000000" />
+</LinearLayout>
