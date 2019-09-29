@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/KOMXQ"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "EiNZZ"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/PavWH"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "PAQUS"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/BaJKq"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "rQHcI"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/qHPYP"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "jNoXs"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+	<RatingBar
+		android:id="@+id/yJELi"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:numStars="3" />
+</LinearLayout>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="10dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="20dp" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="20dp" >
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="10dp" >
+						<ImageView
+							android:id="@+id/Zpkbg"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center"
+							android:layout_weight= "1"
+							android:src="@drawable/pic6"
+							android:contentDescription= "NHVqg" />
+						<TextView
+							android:id="@+id/jseYL"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center"
+							android:layout_weight= "4"
+							android:text= "LdwHc"
+							android:textSize="26sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="10dp" >
+			<TextView
+				android:id="@+id/yxRPQ"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "4"
+				android:text= "hCUYZ"
+				android:textSize="26sp"
+				android:textColor="#000000" />
+			<Switch
+				android:id="@+id/guSxa"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="10dp" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:padding="20dp" >
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:padding="10dp" >
+						<TextView
+							android:id="@+id/MVdHZ"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center"
+							android:layout_weight= "1"
+							android:text= "CxRBv"
+							android:textSize="26sp"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/kWyMq"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center"
+							android:layout_weight= "1"
+							android:text= "NlnnT"
+							android:textSize="26sp"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/jICrx"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center"
+							android:layout_weight= "1"
+							android:text= "qLqFd"
+							android:textSize="26sp"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/ireON"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center"
+							android:layout_weight= "1"
+							android:text= "DTjNO"
+							android:textSize="26sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/INVMy"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic9"
+		android:contentDescription= "YZLcr" />
+</LinearLayout>

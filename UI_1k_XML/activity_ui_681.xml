@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="20dp" >
+				<TextView
+					android:id="@+id/NsjGX"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "1"
+					android:text= "bGZZU"
+					android:textSize="16sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/WKfpk"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "1"
+					android:text= "fZrDv"
+					android:textSize="16sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/lNHXz"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "1"
+					android:text= "VxREa"
+					android:textSize="16sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<EditText
+		android:id="@+id/ZYfam"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "tEcBI"
+		android:textSize="16sp"
+		android:textColor="#333333"
+		android:background="@drawable/text_sharp"
+		android:inputType="date"
+		android:labelFor="@+id/ZYfam" />
+</LinearLayout>

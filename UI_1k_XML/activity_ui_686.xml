@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/dIrIc"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "UBCqq"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/foaOu"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "AgmLB"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+	<TextView
+		android:id="@+id/DiSsc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "lQkYw"
+		android:textSize="16sp"
+		android:textColor="#000000" />
+	<ImageView
+		android:id="@+id/xsCXW"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic8"
+		android:contentDescription= "RzCje" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<ImageView
+			android:id="@+id/dbYcu"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2"
+			android:src="@drawable/pic1"
+			android:contentDescription= "RUySI" />
+		<TextView
+			android:id="@+id/GSuaT"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "imumZ"
+			android:textSize="16sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>
