@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="20dp" >
+			<TextView
+				android:id="@+id/JxSFq"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "2"
+				android:text= "Ijutv"
+				android:textSize="36sp"
+				android:textColor="#000000" />
+			<EditText
+				android:id="@+id/acaNn"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "3"
+				android:text= "WpzJt"
+				android:textSize="36sp"
+				android:textColor="#333333"
+				android:background="@drawable/text_sharp"
+				android:inputType="text"
+				android:labelFor="@+id/acaNn" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/yafQP"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "BJLmL"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/JlETe"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "RtiFX"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/guYsr"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "oGQwo"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/TAWAC"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "YBpkt"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/zEuoO"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "LZCxW"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<EditText
+			android:id="@+id/YHrAr"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "4"
+			android:text= "rJFea"
+			android:textSize="36sp"
+			android:textColor="#333333"
+			android:background="@drawable/text_sharp"
+			android:inputType="date"
+			android:labelFor="@+id/YHrAr" />
+	</LinearLayout>
+</LinearLayout>

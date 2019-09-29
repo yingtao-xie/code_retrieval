@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<Button
+		android:id="@+id/SCijl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "VOcvd"
+		android:textSize="26sp"
+		android:textColor="#666666"
+		android:background="@drawable/button_sharp" />
+	<Button
+		android:id="@+id/NcHnU"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "sEEfA"
+		android:textSize="26sp"
+		android:textColor="#666666"
+		android:background="@drawable/button_sharp" />
+	<TextView
+		android:id="@+id/DuxJp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "yrOvU"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<TextView
+			android:id="@+id/FAcjX"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "NOFTI"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/lZecS"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "wppix"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/DWPvy"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "vQYMR"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/CGAlw"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "lQyhX"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>

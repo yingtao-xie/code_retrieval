@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="20dp" >
+			<EditText
+				android:id="@+id/xrmtU"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "4"
+				android:text= "VPXSa"
+				android:textSize="36sp"
+				android:textColor="#333333"
+				android:background="@drawable/text_sharp"
+				android:inputType="none"
+				android:labelFor="@+id/xrmtU" />
+			<Button
+				android:id="@+id/AxbQu"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "iqiyu"
+				android:textSize="36sp"
+				android:textColor="#666666"
+				android:background="@drawable/button_sharp" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/pACub"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic6"
+		android:contentDescription= "CutGd" />
+	<Button
+		android:id="@+id/JQjkx"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "ibRru"
+		android:textSize="36sp"
+		android:textColor="#666666"
+		android:background="@drawable/button_sharp" />
+	<TextView
+		android:id="@+id/ujNhx"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "BuDqG"
+		android:textSize="36sp"
+		android:textColor="#000000" />
+</LinearLayout>
