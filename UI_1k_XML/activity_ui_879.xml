@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ImageView
+		android:id="@+id/Rowmb"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic16"
+		android:contentDescription= "WrXga" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="10dp" >
+				<Spinner
+					android:id="@+id/Rkayq"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/AQLjb"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "UhiDK"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/VOafb"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "lGpVy"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/HsYuK"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "rtlmB"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/JYYvC"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "kpocG"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<ImageView
+			android:id="@+id/ZZrDe"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2"
+			android:src="@drawable/pic7"
+			android:contentDescription= "CTDbX" />
+		<TextView
+			android:id="@+id/jeTjZ"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "vVsOt"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<EditText
+			android:id="@+id/MTvlJ"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text= "HuMnJ"
+			android:textSize="26sp"
+			android:textColor="#333333"
+			android:background="@drawable/text_sharp"
+			android:inputType="number"
+			android:labelFor="@+id/MTvlJ" />
+	</LinearLayout>
+	<TextView
+		android:id="@+id/rTGBV"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "MRghB"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<TextView
+		android:id="@+id/kvmDK"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "vQhAW"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/atkiL"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "qFcaf"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/xEkgA"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "VLBaB"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/UrFqO"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "fdBUU"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/vwLKz"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "ufxer"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>

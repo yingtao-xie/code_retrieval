@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="10dp" >
+				<SeekBar
+					android:id="@+id/sHlrt"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<EditText
+			android:id="@+id/hdlwt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "4"
+			android:text= "ZXDTy"
+			android:textSize="16sp"
+			android:textColor="#333333"
+			android:background="@drawable/text_sharp"
+			android:inputType="none"
+			android:labelFor="@+id/hdlwt" />
+		<Button
+			android:id="@+id/mdWUI"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "BClkA"
+			android:textSize="16sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="20dp" >
+				<TextView
+					android:id="@+id/oITnh"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "4"
+					android:text= "BvsFA"
+					android:textSize="16sp"
+					android:textColor="#000000" />
+				<Switch
+					android:id="@+id/DlYhM"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_weight= "1" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="20dp" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:padding="10dp" >
+					<TextView
+						android:id="@+id/LvIUu"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_weight= "1"
+						android:text= "lyyuI"
+						android:textSize="16sp"
+						android:textColor="#000000" />
+					<TextView
+						android:id="@+id/hqcOP"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_weight= "1"
+						android:text= "OYFDU"
+						android:textSize="16sp"
+						android:textColor="#000000" />
+					<TextView
+						android:id="@+id/JSWts"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_weight= "1"
+						android:text= "JyjSr"
+						android:textSize="16sp"
+						android:textColor="#000000" />
+					<TextView
+						android:id="@+id/AOEtz"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_weight= "1"
+						android:text= "TrmnN"
+						android:textSize="16sp"
+						android:textColor="#000000" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

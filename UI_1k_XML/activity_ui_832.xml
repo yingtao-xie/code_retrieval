@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<Spinner
+			android:id="@+id/cyGAw"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+	</LinearLayout>
+	<EditText
+		android:id="@+id/mYBQN"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "xlCoB"
+		android:textSize="16sp"
+		android:textColor="#333333"
+		android:background="@drawable/text_sharp"
+		android:inputType="time"
+		android:labelFor="@+id/mYBQN" />
+	<TextView
+		android:id="@+id/VHZBf"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "agUNO"
+		android:textSize="16sp"
+		android:textColor="#000000" />
+</LinearLayout>

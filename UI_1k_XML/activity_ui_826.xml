@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<EditText
+		android:id="@+id/LgHgO"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "SNsma"
+		android:textSize="26sp"
+		android:textColor="#333333"
+		android:background="@drawable/text_sharp"
+		android:inputType="date"
+		android:labelFor="@+id/LgHgO" />
+	<TextView
+		android:id="@+id/ALjtm"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "fUzyB"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<EditText
+				android:id="@+id/dguyn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text= "ANXXa"
+				android:textSize="26sp"
+				android:textColor="#333333"
+				android:background="@drawable/text_sharp"
+				android:inputType="text"
+				android:labelFor="@+id/dguyn" />
+		</LinearLayout>
+	</LinearLayout>
+	<DatePicker
+		android:id="@+id/XlpHy"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+</LinearLayout>

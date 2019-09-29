@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/RcHjB"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "FBooG"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<CheckBox
+			android:id="@+id/dSRmN"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2"
+			android:checked="true" />
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/PpAvW"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic14"
+		android:contentDescription= "SUeGR" />
+</LinearLayout>

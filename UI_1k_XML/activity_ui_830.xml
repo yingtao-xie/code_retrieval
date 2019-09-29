@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="20dp" >
+				<EditText
+					android:id="@+id/ZMhLn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:text= "CvgUD"
+					android:textSize="26sp"
+					android:textColor="#333333"
+					android:background="@drawable/text_sharp"
+					android:inputType="number"
+					android:labelFor="@+id/ZMhLn" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/alkWp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic2"
+		android:contentDescription= "uYaVs" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<Button
+			android:id="@+id/qJQfn"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text= "wABxM"
+			android:textSize="26sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<Button
+			android:id="@+id/Rsymd"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "CsURD"
+			android:textSize="26sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+		<Button
+			android:id="@+id/TjOcq"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "boGfE"
+			android:textSize="26sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+		<Button
+			android:id="@+id/oHJQt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "vESxp"
+			android:textSize="26sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+	</LinearLayout>
+</LinearLayout>
