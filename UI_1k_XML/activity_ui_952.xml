@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<EditText
+			android:id="@+id/FxDUx"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2"
+			android:text= "GyEvP"
+			android:textSize="36sp"
+			android:textColor="#333333"
+			android:background="@drawable/text_sharp"
+			android:inputType="none"
+			android:labelFor="@+id/FxDUx" />
+		<Button
+			android:id="@+id/gIPhJ"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "jBOmP"
+			android:textSize="36sp"
+			android:textColor="#666666"
+			android:background="@drawable/button_sharp" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<EditText
+			android:id="@+id/EMmxq"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text= "yJldO"
+			android:textSize="36sp"
+			android:textColor="#333333"
+			android:background="@drawable/text_sharp"
+			android:inputType="time"
+			android:labelFor="@+id/EMmxq" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="10dp" >
+			<TextView
+				android:id="@+id/pgzsk"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "4"
+				android:text= "ADoPs"
+				android:textSize="36sp"
+				android:textColor="#000000" />
+			<Switch
+				android:id="@+id/ZGaSI"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<TextView
+			android:id="@+id/kXuum"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "CwjOg"
+			android:textSize="36sp"
+			android:textColor="#000000" />
+		<CheckBox
+			android:id="@+id/cBmEK"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2"
+			android:checked="true" />
+	</LinearLayout>
+</LinearLayout>

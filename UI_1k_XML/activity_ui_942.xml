@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/SAhQg"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "eJCCp"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<TextView
+		android:id="@+id/HbUDg"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "QEpfz"
+		android:textSize="26sp"
+		android:textColor="#000000" />
+	<ImageView
+		android:id="@+id/QrsEO"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:scaleType = "fitXY"
+		android:src="@drawable/pic3"
+		android:contentDescription= "UkHND" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<ImageView
+			android:id="@+id/wtXRs"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:scaleType = "fitXY"
+			android:src="@drawable/pic4"
+			android:contentDescription= "QgDYp" />
+	</LinearLayout>
+</LinearLayout>

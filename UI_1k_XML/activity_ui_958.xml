@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp" >
+		<TextView
+			android:id="@+id/yUFkp"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "1"
+			android:text= "HNLIF"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<EditText
+			android:id="@+id/MDTOx"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "4"
+			android:text= "yjifM"
+			android:textSize="26sp"
+			android:textColor="#333333"
+			android:background="@drawable/text_sharp"
+			android:inputType="time"
+			android:labelFor="@+id/MDTOx" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<Spinner
+			android:id="@+id/pfufg"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+	</LinearLayout>
+	<Spinner
+		android:id="@+id/BAdSk"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="20dp" >
+			<ImageView
+				android:id="@+id/qdlSA"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:scaleType = "fitXY"
+				android:src="@drawable/pic18"
+				android:contentDescription= "asfmJ" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

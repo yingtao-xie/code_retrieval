@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<EditText
+		android:id="@+id/UPGis"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text= "fcjWw"
+		android:textSize="26sp"
+		android:textColor="#333333"
+		android:background="@drawable/text_sharp"
+		android:inputType="number"
+		android:labelFor="@+id/UPGis" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="20dp" >
+			<EditText
+				android:id="@+id/teCRz"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "1"
+				android:text= "qKoTG"
+				android:textSize="26sp"
+				android:textColor="#333333"
+				android:background="@drawable/text_sharp"
+				android:inputType="time"
+				android:labelFor="@+id/teCRz" />
+			<Button
+				android:id="@+id/vGSXC"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight= "4"
+				android:text= "uhiXK"
+				android:textSize="26sp"
+				android:textColor="#666666"
+				android:background="@drawable/button_sharp" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" >
+		<TextView
+			android:id="@+id/bybXz"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "3"
+			android:text= "NPinX"
+			android:textSize="26sp"
+			android:textColor="#000000" />
+		<RadioButton
+			android:id="@+id/lQfav"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight= "2" />
+	</LinearLayout>
+</LinearLayout>
